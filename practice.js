@@ -44,7 +44,7 @@ timerStart.addEventListener('click',() => {
         timerStart.innerHTML = `<i class="fa-solid fa-play" id="play"></i>`
     } else {
         startPause = "stopped"
-        stopWatchInterval = window.setInterval(stopWatch, 1) 
+        stopWatchInterval = window.setInterval(stopWatch, 1000) 
         timerStart.innerHTML = `<i class="fa-solid fa-pause" id="pause"></i>`
 
         createSaveTimeBtn.setAttribute('class', 'stopwatch__btn stopwatch__btn--save-time')
