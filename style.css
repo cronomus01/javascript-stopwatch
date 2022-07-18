@@ -85,7 +85,14 @@ body {
     overflow: auto;
     width: 30%;
     text-align: center;
+    /* mozilla */
     scrollbar-width: none;
+    /* IE and Edge */
+    -ms-overflow-style: none;
+}
+
+.stopwatch__bookmark::-webkit-scrollbar {
+    display: none;
 }
 
 .stopwatch__bookmark div:first-child time {
