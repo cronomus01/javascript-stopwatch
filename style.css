@@ -101,7 +101,7 @@ body {
 }
 
 .stopwatch__bookmark div:first-child time {
-    color: darkcyan;
+    color: darkgoldenrod;
     font-size: 1.5em;
 }
 
